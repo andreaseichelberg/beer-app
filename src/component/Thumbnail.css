@@ -1,0 +1,25 @@
+.thumbnail {
+	background: white;
+	padding: 20px 50px;
+	margin-bottom: 20px;
+	position: relative;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.thumbnail::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.thumbnail__img {
+	margin-right: 50px;
+	width: 50px;
+	float: left;
+}
+
+.thumbnail__content {
+	float: left;
+	width: calc(100% - 150px);
+}
+

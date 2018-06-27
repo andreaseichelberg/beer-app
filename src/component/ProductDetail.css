@@ -1,0 +1,21 @@
+.product {
+	padding: 50px 0;
+	
+	box-sizing: border-box;
+}
+
+.product > .row:first-child {
+	min-height: 625px;
+}
+
+.product__title {
+	font-size: 50px;
+	border-bottom: 3px solid #2C2C2C;
+	padding-bottom: 30px;
+}
+
+.product__image {
+	width: 150px;
+	margin: 0 auto;
+	display: block;
+}

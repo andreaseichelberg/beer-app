@@ -57,5 +57,6 @@ Open Additional Todos
 - [ ] loading animations / loading spinner
 - [ ] buffer the next random call to avoid loading delays i.e. image
 - [ ] Optimising wireframe / app structure - Search bar and results are not present enough
+- [ ] make search result list items clickable to display the selected beer in the detail view
 
 

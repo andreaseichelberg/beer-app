@@ -2,8 +2,6 @@ import React from 'react';
 import './Search.css';
 import CartProduct from './CartProduct';
 
-
-
 class Search extends React.Component {
   constructor() {
     super()
@@ -42,7 +40,7 @@ class Search extends React.Component {
 
     if (this.state.searchText !== "") {
 
-      if(!/[^a-zA-Z0-9 ]/.test(this.state.searchText)) {
+      if(!/[^a-zA-Z0-9- ]/.test(this.state.searchText)) {
         this.setState({errorMsg: ''});
 
         let urlCall = "";
@@ -65,12 +63,10 @@ class Search extends React.Component {
       else {
         this.setState({errorMsg: 'Please dont use special characters for your search!'});
       }
-    }
-
-      
-
-      
+    } 
   }
+
+
 
   render() {
     return (

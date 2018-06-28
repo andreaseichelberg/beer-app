@@ -22,11 +22,23 @@ Usage
 
 
 
+Test
+---
+
+`npm test`
+
+
+
+Features
+---
+
 Detail view shows random beer including title, image, description, brewers tip and ABV. Button loads new random beer from Brewdog collection.
+
 <img src="app-screen.png"/>
 
 
 Search provides user with beers based on the search term and search option. 
+
 <img src="app-screen.png"/>
 
 

@@ -1,0 +1,89 @@
+input, label {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  font-size: 18px;
+  outline: 0;
+  margin: 0 0 20px;
+}
+
+label {
+  color: white;
+  display: inline-block;
+}
+
+.textbox {
+  border: 2px solid white;
+  padding: 12px 25px;
+  color: white;
+  background: none;
+  max-width: 350px;
+  width: 100%;
+  font-weight: 300;
+  transition: all 0.2s ease-in-out;
+  margin-right: 20px;
+}
+
+.textbox:focus {
+  border-color: #18a6c7;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+  opacity: 0.4;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+  opacity: 0.4;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+  opacity: 0.4;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+  opacity: 0.4;
+}
+
+input[type="radio"] {
+  position: absolute;
+  left: -999999px;
+}
+
+input[type="radio"] + label {
+  padding-left: 40px;
+  position: relative;
+  margin: 0 20px 20px 0;
+  cursor: pointer;
+}
+
+input[type="radio"] + label:before {
+  cursor: pointer;
+  content: "";
+  height: 26px;
+  width: 26px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -2px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+input[type="radio"] + label:after {
+  content: "";
+  height: 16px;
+  width: 16px;
+  display: block;
+  position: absolute;
+  left: 7px;
+  top: 5px;
+  background: white;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+input[type="radio"]:checked + label:after {
+  opacity: 1;
+}

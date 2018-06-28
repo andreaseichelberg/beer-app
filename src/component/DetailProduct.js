@@ -1,10 +1,10 @@
 import React from 'react';
-import './ProductDetail.css';
+import './DetailProduct.css';
 import fetch from 'isomorphic-fetch';
 
 
 
-class ProductDetail extends React.Component {
+class DetailProduct extends React.Component {
 
   constructor() {
     super();
@@ -71,4 +71,4 @@ class ProductDetail extends React.Component {
   }
 }
 
-export default ProductDetail;
+export default DetailProduct;

@@ -12,16 +12,8 @@ class CartProduct extends React.Component {
         <img src={this.props.image} alt={this.props.name} className="cart-product__img" />
         <div className="cart-product__content">
           <h3 className="cart-product__title">{this.props.name}</h3>
-
           <div>
-            {text.length > maxLength ?
-              (
-                <p>
-                  {`${text.substring(0, maxLength)}...`}
-                </p>
-              ) :
-              <p>{text}</p>
-            }
+            {text.length > maxLength ? (<p>{`${text.substring(0, maxLength)}...`}</p>) : <p>{text}</p>}
           </div>
         </div>
       </li>

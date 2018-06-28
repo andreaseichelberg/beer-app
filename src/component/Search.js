@@ -8,7 +8,7 @@ class Search extends React.Component {
     this.state = { 
       searchText: "", 
       selectedOption: "option1",
-      searchPlaceholder: "Search for our beers...",
+      searchPlaceholder: "Search for IPA, Punk, Berlin ...",
       errorMsg: "",
       products: []
     }
@@ -26,14 +26,13 @@ class Search extends React.Component {
     this.setState({selectedOption: event.target.value});
 
     if (this.state.selectedOption === "option1") {
-      this.setState({searchPlaceholder: 'Find our beer recommondations to your dish...'});
+      this.setState({searchPlaceholder: 'Search for Chicken, Pork, Cheese ...'});
     }
 
     else {
-      this.setState({searchPlaceholder: 'Search for our beers...'});
+      this.setState({searchPlaceholder: 'Search for IPA, Punk, Berlin ...'});
     }
   }
-
 
   handleSubmit(e) {
     e.preventDefault();
@@ -65,8 +64,6 @@ class Search extends React.Component {
       }
     } 
   }
-
-
 
   render() {
     return (

@@ -3,7 +3,6 @@ import './App.css';
 import './inputs.css';
 import DetailProduct from './DetailProduct.js';
 import Search from './Search.js';
-import Header from './Header.js';
 import Footer from './Footer.js';
 
 
@@ -14,7 +13,6 @@ class App extends Component {
 
     return (
       <div className="app">
-      	<Header />
         <DetailProduct />
         <Search />
         <Footer />

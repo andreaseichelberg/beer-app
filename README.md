@@ -42,3 +42,20 @@ Search provides user with beers based on the search term and search option.
 <img src="app-screen-2.png"/>
 
 
+Open Required Todos
+---
+
+- [ ] advanced testing
+- [ ] advanced use of design patterns 
+- [ ] advanced use of React components and their interaction
+
+
+Open Additional Todos
+---
+
+- [ ] empty search result message
+- [ ] loading animations / loading spinner
+- [ ] buffer the next random call to avoid loading delays i.e. image
+- [ ] Optimising wireframe / app structure - Search bar and results are not present enough
+
+

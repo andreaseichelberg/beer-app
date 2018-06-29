@@ -37,7 +37,7 @@ Detail view shows random beer including title, image, description, brewers tip a
 <img src="app-screen.png"/>
 
 
-Search provides user with beers based on the search term and search option. 
+Search provides user with beers based on the search term and search option. Food - find recommended beers to your dish keyword.
 
 <img src="app-screen-2.png"/>
 

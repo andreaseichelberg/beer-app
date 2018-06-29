@@ -59,4 +59,11 @@ Open Additional Todos
 - [ ] Optimising wireframe / app structure - Search bar and results are not present enough
 - [ ] make search result list items clickable to display the selected beer in the detail view
 
+Mockup
+---
+
+The basic UI-Design was created with Sketch App.
+
+<img src="sketch.png"/>
+
 
